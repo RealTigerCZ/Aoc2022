@@ -19,9 +19,9 @@ with open(INPUT_FILE, "r") as f:
 
 calories = sorted(calories)
 
-print(calories[-1])
-print(calories[-2])
-print(calories[-3])
+print("max1:", calories[-3])
+print("max2:", calories[-2])
+print("max3:", calories[-1])
 print("--------------------------")
 print("result: =", calories[-1] + calories[-2] + calories[-3])
 print("--------------------------")
