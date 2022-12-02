@@ -5,7 +5,7 @@
 #define eprint(s, ...) fprintf(stderr, "[ERROR] "__FILE__ ":%u: "s" \n", __LINE__, __VA_ARGS__)
 
 #if 1
-#define INPUT_FILE "input_sample.txt"
+#define INPUT_FILE "input_simple.txt"
 
 #else
 #define INPUT_FILE "input.txt"
