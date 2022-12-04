@@ -5,4 +5,6 @@ else:
 
 
 with open(INPUT_FILE, "r") as file:
-    print("file loaded")
+    for line in file.readlines():
+        if line[-1] == '\n':
+            line = line[:-1]
